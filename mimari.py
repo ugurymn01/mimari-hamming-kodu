@@ -107,11 +107,11 @@ def decode():
 
 # GUI Başlangıcı
 root = tk.Tk()
-root.title("Hamming SEC-DED Simülatörü")
+root.title("Hamming Kodu Simülatörü")
 root.configure(bg=arkaplan)
 
 # Başlık
-tk.Label(root, text="Hamming SEC-DED Simülatörü", font=("Arial", 16, "bold"), bg=arkaplan).grid(row=0, column=0, columnspan=2, pady=10)
+tk.Label(root, text="Hamming Kodu Simülatörü", font=("Arial", 16, "bold"), bg=arkaplan).grid(row=0, column=0, columnspan=2, pady=10)
 
 # Giriş Alanı
 tk.Label(root, text="Veriyi giriniz (binary):", bg=arkaplan, font=('Arial', 12)).grid(row=1, column=0, padx=10, pady=5)
